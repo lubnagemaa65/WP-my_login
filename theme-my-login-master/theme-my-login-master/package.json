@@ -1,0 +1,37 @@
+{
+  "author": "Theme My Login",
+  "bugs": {
+    "url": "https://github.com/theme-my-login/theme-my-login/issues"
+  },
+  "description": "Creates an alternate login, registration and password recovery experience within your theme.",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.52.3"
+  },
+  "homepage": "https://thememylogin.com",
+  "keywords": [
+    "login",
+    "registration",
+    "passwords",
+    "theme"
+  ],
+  "license": "GPL-2.0-or-later",
+  "name": "theme-my-login",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theme-my-login/theme-my-login"
+  },
+  "scripts": {
+    "build": "gulp",
+    "watch": "gulp watch",
+    "clean": "gulp clean"
+  }
+}
